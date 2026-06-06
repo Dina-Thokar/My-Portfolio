@@ -1,6 +1,6 @@
-node_modules
-/build
-/dist
+node_modules/
+dist/
+build/
 .DS_Store
 *.log
 npm-debug.log*
@@ -11,3 +11,15 @@ yarn-error.log*
 .env.development.local
 .env.test.local
 .env.production.local
+.vscode/
+.idea/
+.idea/
+*.swp
+*.swo
+*~
+.cache/
+.parcel-cache/
+.next/
+out/
+.vercel/
+*.pem

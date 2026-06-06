@@ -1,0 +1,9 @@
+{
+  "name": "dina-tamang-portfolio",
+  "version": "2.0.0",
+  "description": "Cybersecurity & Developer Portfolio",
+  "license": "MIT",
+  "author": "Dina Tamang",
+  "homepage": "./",
+  "keywords": ["portfolio", "cybersecurity", "developer", "java", "react"]
+}
