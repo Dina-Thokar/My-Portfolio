@@ -1,0 +1,57 @@
+/* CONTACT */
+#contact {
+  text-align: center;
+}
+
+.contact-inner {
+  max-width: 600px;
+  margin: 0 auto;
+}
+
+.contact-inner p {
+  font-family: 'Share Tech Mono', monospace;
+  font-size: 0.85rem;
+  color: var(--muted);
+  line-height: 2;
+  margin-bottom: 40px;
+}
+
+.contact-email {
+  font-size: clamp(1.2rem, 3vw, 2rem);
+  font-weight: 800;
+  color: var(--accent);
+  text-decoration: none;
+  letter-spacing: -0.5px;
+  transition: color 0.2s;
+  display: block;
+  margin-bottom: 48px;
+}
+
+.contact-email:hover {
+  color: #fff;
+}
+
+.socials {
+  display: flex;
+  justify-content: center;
+  gap: 16px;
+  flex-wrap: wrap;
+}
+
+.social-link {
+  font-family: 'Share Tech Mono', monospace;
+  font-size: 0.72rem;
+  letter-spacing: 2px;
+  color: var(--muted);
+  text-decoration: none;
+  padding: 10px 20px;
+  border: 1px solid var(--border);
+  transition: all 0.25s;
+  text-transform: uppercase;
+}
+
+.social-link:hover {
+  color: var(--accent);
+  border-color: var(--accent);
+  box-shadow: var(--glow);
+}
